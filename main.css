@@ -2,25 +2,25 @@ body {
     font-family: 'Playfair';
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 header {
-    background-color: #ab0302;
-    padding: 10px;
+    margin-top: -10px;
     font-size: 17px;
     font-family: sans-serif;
 }
 
 #logo {
-    width: 300px;
+    width: 350px;
     height: auto;
     margin-left: 150px;
+    margin-top: -30px;
 }
 
 nav {
     float: right;
-    margin-top: 55px;
+    margin-top: 60px;
+    margin-right: 130px;
 }
 
 nav li {
@@ -37,31 +37,46 @@ section {
     padding: 20px;
 }
 
-#home {
-    color: #fcfbfa;
+#home, nav, header {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/desautel.jpg');
     background-size: cover;
     background-attachment: fixed;
+
+}
+
+#home {
+    color: #fcfbfa;
     font-size: 30px;
-    padding: 200px;
-    margin-top: -10px;
 }
 
 #home h2, #home p, #sponsors h2 {
     max-width: 1100px;
-    margin-left: 10px;
+    margin-left: 150px;
     text-align: justify;
+    padding: 10px;
+}
+
+#home p {
+    margin-bottom: 200px;
 }
 
 #sponsors {
     font-size: 30px;
-    padding: 200px;
+    width: fit-content;
+    block-size: fit-content;
+}
+
+#sponsors h2 {
+    margin-top: 100px;
+    
 }
 
 #deloitte {
     width: 300px;
     height: auto;
-    margin-left: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 400px;
 }
 
 footer {
