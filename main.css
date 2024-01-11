@@ -1,0 +1,89 @@
+body {
+    font-family: 'Playfair';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ab0302;
+    padding: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+#logo {
+    width: 300px;
+    height: auto;
+    margin-left: 150px;
+}
+
+nav {
+    float: right;
+    margin-top: 55px;
+}
+
+nav li {
+    display: inline-block; /* Make list items appear horizontally */
+    margin-right: 15px; /* Adjust spacing between list items */
+}
+
+nav a{
+    color: #fcfbfa;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#home {
+    color: #fcfbfa;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('desautel.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 30px;
+    padding: 200px;
+    margin-top: -10px;
+}
+
+#home h2, #home p, #sponsors h2 {
+    max-width: 1100px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+#sponsors {
+    font-size: 30px;
+    padding: 200px;
+}
+
+#deloitte {
+    width: 300px;
+    height: auto;
+    margin-left: 300px;
+}
+
+footer {
+    background-color:#ab0302;
+    color: #fcfbfa;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+}
+
+a { /* hyperlink in footer */
+    display: block;
+    color: #fcfbfa;
+    text-align: center;
+    text-decoration: none;
+}
+
+#logo_foot {
+    width: 150px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: -100px;
+}
