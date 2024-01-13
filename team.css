@@ -2,7 +2,6 @@ body {
     font-family: 'Playfair';
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 header {
@@ -36,17 +35,53 @@ nav a{
 
 section {
     padding: 20px;
+
 }
 
 #home {
+    margin-top: 10px;
     font-size: 30px;
-    margin-bottom: 200px;
+    text-align: center;
 }
 
-#home h2, #home p {
-    max-width: 1100px;
-    margin-left: 150px;
-    text-align: justify;
+.image-container {
+    display: flex;
+}
+
+.image-item {
+    width: 33.33%;
+    box-sizing: border-box;
+    text-align: center;
+    pedding: 10px;
+    margin-bottom: 100px;
+}
+
+.image-item img {
+    width: 80%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.image-container2 {
+    display: flex;
+}
+
+.image-item2 {
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    pedding: 10px;
+    margin-bottom: 100px;
+}
+
+.image-item2 img {
+    width: 53.33%;
+    height: 450px;
+    object-fit: cover;
+}
+
+div p2 {
+    font-style: italic;
 }
 
 footer {
