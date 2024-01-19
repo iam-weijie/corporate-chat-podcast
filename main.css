@@ -60,9 +60,10 @@ section {
 }
 
 #sponsors {
-    font-size: 35px;
+    font-size: 33px;
     text-align: center;
     margin-top: 50px;
+    font-family: sans-serif;
 }
 
 .image-container {

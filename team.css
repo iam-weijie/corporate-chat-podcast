@@ -35,12 +35,12 @@ nav a{
 
 section {
     padding: 20px;
-
+    font-family: sans-serif;
 }
 
 #home {
-    margin-top: 30px;
-    font-size: 30px;
+    margin-top: 50px;
+    font-size: 33px;
     text-align: center;
 }
 

@@ -63,12 +63,23 @@ a { /* hyperlink in footer */
     display: block;
     color: #fcfbfa;
     text-align: center;
-    text-decoration: none;
 }
 
 #logo_foot {
-    width: 150px;
+    width: 300px;
     height: auto;
-    margin-left: 200px;
-    margin-top: -100px;
+    margin-left: 150px;
+    margin-top: -220px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.social-media img {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
 }
