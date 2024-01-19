@@ -1,11 +1,9 @@
 body {
     font-family: 'Playfair';
     margin: 0;
-    padding: 0;
 }
 
 header {
-    margin-top: -10px;
     font-size: 17px;
     font-family: sans-serif;
 }
@@ -19,7 +17,7 @@ header {
 
 nav {
     float: right;
-    margin-top: 60px;
+    margin-top: 70px;
     margin-right: 130px;
 }
 
@@ -38,10 +36,9 @@ section {
 }
 
 #home, nav, header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/desautel.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/desautels.jpg');
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 #home {
@@ -49,34 +46,43 @@ section {
     font-size: 30px;
 }
 
-#home h2, #home p, #sponsors h2 {
-    max-width: 1100px;
+#home h2, #home p {
+    max-width: 1050px;
     margin-left: 150px;
     text-align: justify;
     padding: 10px;
 }
 
+
+
 #home p {
-    margin-bottom: 200px;
+    margin-bottom: 260px;
 }
 
 #sponsors {
-    font-size: 30px;
-    width: fit-content;
-    block-size: fit-content;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
 }
 
-#sponsors h2 {
+.image-container {
+    display: flex;
+    text-align: center;
+}
+
+.image-item {
+    width: 33.33%;
+    box-sizing: border-box;
+    pedding: 10px;
+    margin-bottom: 200px;
     margin-top: 100px;
-    
+    font-size: 25px;
 }
 
-#deloitte {
+.image-item img {
     width: 300px;
     height: auto;
-    margin-left: 200px;
-    margin-top: 100px;
-    margin-bottom: 400px;
+    object-fit: cover;
 }
 
 footer {
@@ -93,12 +99,23 @@ a { /* hyperlink in footer */
     display: block;
     color: #fcfbfa;
     text-align: center;
-    text-decoration: none;
 }
 
 #logo_foot {
-    width: 150px;
+    width: 300px;
     height: auto;
-    margin-left: 200px;
-    margin-top: -100px;
+    margin-left: 150px;
+    margin-top: -220px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.social-media img {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
 }
