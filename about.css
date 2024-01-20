@@ -34,10 +34,13 @@ nav a{
     text-decoration: none;
 }
 
-section {
+#title {
     padding: 20px;
-    margin-bottom: 100px;
     margin-top: 50px;
+}
+
+#text {
+    margin-bottom: 100px;
 }
 
 section h1 {
@@ -99,4 +102,17 @@ a { /* hyperlink in footer */
     width: 30px;
     height: auto;
     margin: 0 10px;
+}
+
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

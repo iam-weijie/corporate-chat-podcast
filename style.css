@@ -114,3 +114,16 @@ a { /* hyperlink in footer */
     display: flex;
     justify-content: center;
 }
+
+.anim2 {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

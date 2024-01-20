@@ -118,3 +118,14 @@ a { /* hyperlink in footer */
     height: auto;
     margin: 0 10px;
 }
+
+.anim {
+    opacity: 0.1;
+    transform: translateY(30px);
+    transition: opacity 0.5s linear, transform 0.5s linear;
+}
+
+.anim:hover {
+    opacity: 1;
+    transform: translateY(0);
+}
