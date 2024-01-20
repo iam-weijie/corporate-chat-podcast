@@ -76,6 +76,14 @@ section p {
     object-fit: cover;
 }
 
+.image-item p {
+    margin-inline: 70px;
+}
+
+.image-item p2 {
+    font-style: italic;
+}
+
 footer {
     background-color:#ab0302;
     color: #fcfbfa;

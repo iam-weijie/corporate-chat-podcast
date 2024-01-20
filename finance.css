@@ -56,7 +56,6 @@ section h2 {
 
 section p {
     font-size: 25px;
-    margin-bottom: 175px;
 }
 
 .image-container {
@@ -68,7 +67,11 @@ section p {
     box-sizing: border-box;
     text-align: center;
     pedding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 175px;
+}
+
+.image-item p {
+    margin-inline: 100px;
 }
 
 .image-item p2 {
