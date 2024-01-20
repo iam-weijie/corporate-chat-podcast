@@ -56,13 +56,13 @@ section h2 {
 }
 
 section p {
-    font-size: 28px;
+    font-size: 25px;
 }
 
 #about {
-    width: 500px;
+    width: 400px;
     height: auto;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-top: -500px;
 }
 

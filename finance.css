@@ -55,7 +55,8 @@ section h2 {
 }
 
 section p {
-    font-size: 28px;
+    font-size: 25px;
+    margin-bottom: 175px;
 }
 
 .image-container {
@@ -67,7 +68,11 @@ section p {
     box-sizing: border-box;
     text-align: center;
     pedding: 10px;
-    margin-bottom: 175px;
+    margin-bottom: 20px;
+}
+
+.image-item p2 {
+    font-style: italic;
 }
 
 .image-item img {
