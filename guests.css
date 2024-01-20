@@ -44,7 +44,7 @@ section h1 {
 }
 
 .image-item, .bottom-image {
-    margin-top: 75px;
+    margin-top: 100px;
     text-align: center;
     pedding: 10px;
     font-size: 20px;
@@ -95,17 +95,6 @@ a { /* hyperlink in footer */
     margin: 0 10px;
 }
 
-.anim {
-    opacity: 0.5;
-    transform: translateY(30px);
-    transition: opacity 0.5s linear, transform 0.5s linear;
-}
-
-.anim:hover {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 .anim2 {
     opacity: 0;
     transform: translateY(30px);
@@ -117,4 +106,14 @@ a { /* hyperlink in footer */
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 3s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
 }
