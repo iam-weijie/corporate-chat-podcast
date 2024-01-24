@@ -34,6 +34,7 @@ nav a{
     text-decoration: none;
 }
 
+
 #title {
     padding: 20px;
     margin-top: 50px;
@@ -50,7 +51,7 @@ section h1 {
 }
 
 section h2, section p {
-    margin-left: 700px;
+    transform: translate(50%, 0);
     text-align: justify;
 }
 
@@ -65,7 +66,7 @@ section p {
 #about {
     width: 400px;
     height: auto;
-    margin-left: 150px;
+    transform: translate(50%, 0);
     margin-top: -500px;
 }
 
@@ -114,5 +115,67 @@ a { /* hyperlink in footer */
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+
+/* Adjustments for mobile responsiveness */
+@media screen and (max-width: 768px) {
+    header {
+        text-align: left;
+    }
+
+    #logo,
+    nav {
+        margin: 0;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #title {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    #text {
+        margin-bottom: 20px;
+    }
+
+    section h1 {
+        font-size: 30px;
+    }
+
+    section h2 {
+        font-size: 24px;
+        margin-left: -60%;
+    }
+
+    section p {
+        font-size: 16px;
+        margin-left: -60%;
+    }
+
+    #about {
+        width: 100%;
+        margin-top: 0;
+        transform: none;
+    }
+
+
+    footer {
+        text-align: center;
+    }
+
+    #logo_foot {
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+
+    .social-media {
+        margin-top: 20px;
     }
 }
