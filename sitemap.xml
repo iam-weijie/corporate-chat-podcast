@@ -2,5 +2,30 @@
     <url>
         <loc>https://www.corporatechatpodcast.com/</loc>
         <lastmod>2024-01-26</lastmod>
+        <priority>1.0</priority>
+    </url> 
+    <url>
+        <loc>https://www.corporatechatpodcast.com/about.html</loc>
+        <lastmod>2024-01-26</lastmod>
+    </url>
+    <url>
+        <loc>https://www.corporatechatpodcast.com/team.html</loc>
+        <lastmod>2024-01-26</lastmod>
+    </url>
+    <url>
+        <loc>https://www.corporatechatpodcast.com/finance.html</loc>
+        <lastmod>2024-01-26</lastmod>
+    </url>
+    <url>
+        <loc>https://www.corporatechatpodcast.com/technology.html</loc>
+        <lastmod>2024-01-26</lastmod>
+    </url>
+    <url>
+        <loc>https://www.corporatechatpodcast.com/guests.html</loc>
+        <lastmod>2024-01-26</lastmod>
+    </url>
+    <url>
+        <loc>https://www.corporatechatpodcast.com/contact.html</loc>
+        <lastmod>2024-01-26</lastmod>
     </url>
 </urlset>
