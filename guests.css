@@ -46,7 +46,7 @@ section h1 {
 .image-item, .bottom-image {
     margin-top: 100px;
     text-align: center;
-    pedding: 10px;
+    padding: 10px;
     font-size: 20px;
 }
 
@@ -57,7 +57,7 @@ section h1 {
 }
 
 .bottom-image {
-    margin-bottom: 175px;
+    margin-bottom: 200px;
 }
 
 footer {
