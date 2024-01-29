@@ -142,3 +142,57 @@ a { /* hyperlink in footer */
         transform: translateY(0);
     }
 }
+
+@media screen and (max-width: 768px) {
+    #logo, nav {
+        margin: 0;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;  
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    #logo_foot {
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+
+    .social-media {
+        margin-top: 20px;
+    }
+
+    section h1, section h2 {
+        font-size: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    section p {
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .image-container {
+        display: block;
+    }
+
+    .image-item {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    #mathis, #loic {
+        width: 80%;
+        height: 80%;
+    }
+}
