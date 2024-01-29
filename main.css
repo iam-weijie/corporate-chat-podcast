@@ -53,8 +53,6 @@ section {
     padding: 10px;
 }
 
-
-
 #home p {
     margin-bottom: 300px;
 }
@@ -130,4 +128,85 @@ a { /* hyperlink in footer */
 .anim:hover {
     opacity: 1;
     transform: translateY(0);
+}
+
+
+/* Adjustments for mobile responsiveness */
+@media screen and (max-width: 768px) {
+    #logo, nav {
+        margin: 0;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;  
+        transform: translateY(-400%);
+    }
+
+    #home {
+        margin-top: -50px;
+        padding: 0;
+    }
+
+    #home h2, #sponsors h2 {
+        font-size: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #home p {
+        font-size: 24px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 50px;
+    }
+
+    .image-container {
+        display: block;
+        box-sizing: border-box;
+        margin-bottom: -50px;
+        margin-top: -50px;
+    }
+
+    .image-item img {
+        width: 200%;
+        height: auto;
+        object-fit: cover;
+        margin-bottom: -10px;
+        margin-top: -40px;
+        margin-left: 70%;
+    }
+
+    .image-item h2 {
+        font-size: 50px;
+        margin-top: -50px;
+        margin-left: 70%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    #logo_foot {
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+
+    .social-media {
+        margin-top: 20px;
+    }
+
+    .anim {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+
+    .anim:hover {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
