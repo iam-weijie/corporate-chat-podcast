@@ -144,3 +144,39 @@ a { /* hyperlink in footer */
     filter: blur(0);
     transform: translateX(0);
 }
+
+@media screen and (max-width: 768px) {
+    #logo, nav {
+        margin: 0;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;  
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    #logo_foot {
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+
+    .social-media {
+        margin-top: 20px;
+    }
+
+    #title h1 {
+        font-size: 30px;
+    }
+
+    #title p, #socials1 h2, #socials2 h2 {
+        font-size: 20px;
+    }
+}
