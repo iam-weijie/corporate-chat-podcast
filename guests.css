@@ -60,7 +60,7 @@ section h1 {
 }
 
 .image-item {
-    width: 20%;
+    width: calc(16.67%);
 }
 
 .image-item img {
@@ -124,4 +124,58 @@ a { /* hyperlink in footer */
 .show {
     opacity: 1;
     transform: translateX(0);
+}
+
+@media screen and (max-width: 768px) {
+    #logo, nav {
+        margin: 0;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;  
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    #logo_foot {
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+
+    .social-media {
+        margin-top: 20px;
+    }
+
+    section h1 {
+        font-size: 24px;
+    }
+    
+    .image-container, .image-container2, .image-container3{
+        flex-wrap: wrap;
+    }
+
+    .image-container .image-item, .image-container2 .image-item, .image-container3 .image-item {
+        width: calc(33.33%);
+
+    }
+
+    .image-container {
+        margin-top: 50px;
+    }
+
+    .image-container2 {
+        margin-top: 0;
+    }
+    
+    .image-container3 {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
 }
