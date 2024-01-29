@@ -50,7 +50,6 @@ nav a{
 
 .text-container {
     display: block;
-    
 }
 
 section h1 {
@@ -73,7 +72,6 @@ section p {
 #about {
     width: 400px;
     height: auto;
-
 }
 
 footer {
@@ -111,6 +109,7 @@ a { /* hyperlink in footer */
     margin: 0 10px;
 }
 
+
 .anim {
     opacity: 0;
     transform: translateY(30px);
@@ -124,6 +123,51 @@ a { /* hyperlink in footer */
     }
 }
 
+/*
+.navbar {
+    background-color: #ab0302;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-btn {
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fcfbfa;
+    cursor: pointer;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fcfbfa;
+    font-size: 18px;
+}
+
+.nav-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #ab0302;
+    z-index: 1;
+}
+*/
 
 /* Adjustments for mobile responsiveness */
 @media screen and (max-width: 768px) {
@@ -139,7 +183,11 @@ a { /* hyperlink in footer */
     nav {
         float: none;
         text-align: center;
-        margin-top: 20px;
+    }
+
+    nav li {
+        display: block;
+        margin: 0;
     }
 
     #title {
@@ -157,20 +205,19 @@ a { /* hyperlink in footer */
 
     section h2 {
         font-size: 24px;
-        margin-left: -60%;
+        margin-left: 5%;
     }
 
     section p {
         font-size: 16px;
-        margin-left: -60%;
+        margin-left: 5%;
+       
     }
-
 
     #about {
         width: 100%;
-        margin-top: 0;
+  
     }
-
 
     footer {
         text-align: center;
@@ -184,4 +231,18 @@ a { /* hyperlink in footer */
     .social-media {
         margin-top: 20px;
     }
+
+    .flex-container {
+        display: block;
+    }
+
+    /*
+    .toggle-btn {
+        display: block;
+    }
+
+    .nav-list.show {
+        display: flex;
+    }
+    */
 }
