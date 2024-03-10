@@ -2,4 +2,4 @@
 
 Live at:
 
-[corporatechatpodcast](corporatechatpodcast.com)
+[corporatechatpodcast.com](corporatechatpodcast.com)
