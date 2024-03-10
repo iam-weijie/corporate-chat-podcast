@@ -1,5 +1,4 @@
-# Corporate Chat Podcast
-Here are the codes for Corporate Chat Podcast Webpage.
+# Webpage for Corporate Chat Podcast
 
 The site is live at:
 corporatechatpodcast.com
