@@ -1,4 +1,5 @@
 # Webpage for Corporate Chat Podcast
 
-The site is live at:
+Live at:
+
 [corporatechatpodcast](corporatechatpodcast.com)
