@@ -46,7 +46,9 @@ section h1 {
 .image-container,
 .image-container2,
 .image-container3,
-.image-container4 {
+.image-container4,
+.image-container5,
+.image-container6 {
   display: flex;
   text-align: center;
   align-items: center;
@@ -58,7 +60,7 @@ section h1 {
   margin-top: 80px;
 }
 
-.image-container4 {
+.image-container6 {
   margin-bottom: 100px;
 }
 
